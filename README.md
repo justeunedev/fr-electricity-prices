@@ -4,8 +4,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Update Data](https://github.com/justeunedev/fr-electricity-prices/actions/workflows/update_tarifs.yml/badge.svg?style=for-the-badge)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)
+![Update Data](https://github.com/justeunedev/fr-electricity-prices/actions/workflows/update_tarifs.yml/badge.svg?style=for-the-badge)
 
 ---
 
