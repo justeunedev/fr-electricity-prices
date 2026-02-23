@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 import altair as alt
 
 # --- PAGE CONFIGURATION ---
-st.set_page_config(page_title="Sobry TURPE CU4", page_icon="⚡", layout="centered")
+st.set_page_config(page_title="Electricité TURPE France", page_icon="⚡", layout="centered")
 
 # --- TIME ---
 tz = ZoneInfo("Europe/Paris")
@@ -113,8 +113,8 @@ prix_demain = charger_donnees(date_demain)
 moyenne_semaine = calculer_moyenne_hebdo()
 
 # --- USER INTERFACE ---
-st.title("⚡ Tarif Sobry TURPE CU4 TTC")
-st.caption("ℹ️ Les prix affichés incluent le Tarif Spot France + TURPE (CU4) + Toutes Taxes Comprises (TTC).")
+st.title("⚡ Tarif Electricité TURPE (CU4) en France")
+st.caption("ℹ️ Les prix affichés incluent le Tarif Spot France + TURPE (CU4) + Toutes Taxes Comprises (TTC). Basée sur l'API de Sobry")
 
 # AVERAGE
 col1, col2, col3 = st.columns(3)
