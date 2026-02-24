@@ -18,7 +18,7 @@ date_demain = (maintenant + timedelta(days=1)).strftime("%Y-%m-%d")
 
 # --- FUNCTION ---
 def charger_donnees(date_str):
-    chemin_fichier = os.path.join("data", f"tarifs_{date_str}.json")
+    chemin_fichier = os.path.join("data/particular/cu4", f"tarifs_{date_str}_cu4_particulier.json")
     if os.path.exists(chemin_fichier):
         with open(chemin_fichier, "r") as fichier:
             contenu = json.load(fichier)

@@ -20,7 +20,7 @@ TOPIC_3H = os.getenv("NTFY_TOPIC_3H")
 TOPIC_RECAPS = os.getenv("NTFY_TOPIC_RECAPS")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = os.path.join(BASE_DIR, "data/particular/cu4")
 
 TZ = ZoneInfo("Europe/Paris")
 
@@ -49,7 +49,7 @@ def send_ntfy(topic, message, title, tags="zap,bulb", priority=3):
         print(f"❌ Erreur d'envoi ntfy sur {topic} : {e}")
 
 def get_prices(date_obj):
-    path = os.path.join(DATA_DIR, f"tarifs_{date_obj.strftime('%Y-%m-%d')}.json")
+    path = os.path.join(DATA_DIR, f"tarifs_{date_obj.strftime('%Y-%m-%d')}_cu4_particulier.json")
     if os.path.exists(path):
         with open(path, 'r', encoding='utf-8') as f:
             d = json.load(f)
