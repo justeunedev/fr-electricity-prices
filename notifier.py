@@ -121,10 +121,12 @@ if __name__ == "__main__":
     # ==========================================
     elif action == "3h" and prices_today:
         target_hour = (now + timedelta(hours=1)).hour
+        target_hour2 = (target_hour + 1) % 24
+        target_hour3 = (target_hour + 2) % 24
     
         h1 = get_avg(prices_today, target_hour, target_hour + 1)
-        h2 = get_avg(prices_today, target_hour + 1, target_hour + 2)
-        h3 = get_avg(prices_today, target_hour + 2, target_hour + 3)
+        h2 = get_avg(prices_today, target_hour2 , target_hour2 + 1)
+        h3 = get_avg(prices_today, target_hour3, target_hour3 + 1)
     
         avg_3h = (h1 + h2 + h3) / 3
         
