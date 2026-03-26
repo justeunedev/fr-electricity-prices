@@ -182,7 +182,7 @@ st.markdown(
     """
     <div style="text-align: center; color: grey; font-size: 0.85em; line-height: 2em;">
         Une app de <b>Juste Une Dev</b><br>
-        <a href="https://github.com/justeundev/" target="_blank" style="color: grey; text-decoration: none; margin-right: 15px;">
+        <a href="https://github.com/justeunedev/" target="_blank" style="color: grey; text-decoration: none; margin-right: 15px;">
             <i class="fab fa-github"></i> GitHub
         </a>
         <a href="https://justeunedev.arniael.eu" style="color: grey; text-decoration: none;">
