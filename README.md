@@ -14,8 +14,7 @@ Les données sont fournies par l'API publique du fournisseur d'électricité Sob
 L'API utilisée affiche le tarif particulier TTC et utilise le TURPE CU4 uniquement pour l'instant.
 
 ## Lien d'accès
-Disponible publiquement via deux liens :
-- [**Hébergé par Arniael**](https://frelec-turpe.arniael.eu), sur un serveur en France via Contabo, utilisant une copie de ce code configuré pour push les notifications sur NTFY et ne collectant aucune donnée.
+Disponible publiquement :
 - [**Hébergé sur Streamlit**](https://justeunedev-elecprices.streamlit.app), dépendant de Github Workflow et de la disponibilité de Streamlit, utilisant directement ce code source.
 
 ## 🛠️ Structure du Projet
