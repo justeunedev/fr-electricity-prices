@@ -48,6 +48,6 @@ Disponible publiquement :
 ---
 
 ## 👩‍💻 Crédits & Licence
-Une app de **Juste Une Dev** - justeunedev(a)arniael.eu  
+Une app d'**Arniael** - git(a)arniael.eu  
 Distribué sous la **Licence MIT**.
 Basée sur l'API publique de [Sobry](https://api.sobry.co/docs)
